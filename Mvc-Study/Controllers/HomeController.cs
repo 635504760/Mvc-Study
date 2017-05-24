@@ -20,6 +20,7 @@ namespace Mvc_Study.Controllers
         [HttpGet]
         public ViewResult RsvpForm() 
         {
+            var str = "I Love You.";
             return View();
         }
         [HttpPost]
